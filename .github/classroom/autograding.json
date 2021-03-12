@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "read and print the string",
+      "setup": "cc Program-1.c",
+      "run": "./a.out",
+      "input": "Vidyavardhaka",
+      "output": "The input string is Vidyavardhaka",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Copying One string to Another",
+      "setup": "cc Program-2.c",
+      "run": "./a.out",
+      "input": "Nithin",
+      "output": "The copied String-2 = Nithin",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "concatenates two given strings",
+      "setup": "cc Program-3.c",
+      "run": "./a.out",
+      "input": "Nithin kumar",
+      "output": "The concatenated string = Nithinkumar",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "finds the length of the given string and prints result",
+      "setup": "cc Program-4.c",
+      "run": "./a.out",
+      "input": "Vidyavardhaka",
+      "output": "The length of string = 13",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "count number of vowels in a string",
+      "setup": "cc Program-5.c",
+      "run": "./a.out",
+      "input": "nithin",
+      "output": "Number of vowels in the string = 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
