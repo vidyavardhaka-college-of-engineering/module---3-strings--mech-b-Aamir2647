@@ -18,7 +18,7 @@ int main()
     printf("Enter a string: ");
     scanf("%s",str);
     for(i=0; str[i]!='\0'; ++i);
-       printf("The length of string = ");
+       printf("The length of string =");
        printf("%d",i);
        //Complete the missing code in result printing statement
     return 0;
